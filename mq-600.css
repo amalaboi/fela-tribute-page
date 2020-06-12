@@ -1,5 +1,4 @@
 #atf{
-
     background-image: url('img/atf-1200.jpg');
 
 }
@@ -16,7 +15,7 @@
     padding-top: 70px;
   }
 
-.atf-content h1{
+.atf-content #title{
     font-size: 70px;
   }
   
@@ -32,3 +31,35 @@
     font-size: 4rem;
   }
   
+  /* about-fela */
+  #about-fela{
+    padding-top: 105px;
+
+
+  }
+
+  #about-fela h2{
+    font-size: 5rem;
+  }
+
+  #main{
+    max-width: 960px;
+    margin: 10px auto;
+    background-color: rgba(0,0,0,.6);
+  }
+
+  /* #tribute-info #container{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+  } */
+  #tribute-info #container{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-flow: column;
+    
+  }
+  #img-div{
+    /* margin: 20px; */
+    margin: 0 auto;
+}

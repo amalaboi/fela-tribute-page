@@ -7,12 +7,22 @@ html,body,section,div,header,a,h1,h2,h3{
   font-family: 'Roboto Slab', serif;
   font-family: 'Roboto', sans-serif;
   /* font-size: 1.1rem; */
- 
-}
+ }
 
+ /* Font-family declaration... */
+ .roboto-slab{
+  font-family: 'Roboto Slab', serif;
+ }
+ .roboto{
+  font-family: 'Roboto', sans-serif;
+ }
+ .header-font{
+  font-family: 'UnifrakturCook', cursive;
+ }
+/* End of Font-family declaration */
 
-
-header{
+/* Main Header section */
+ header{
   width: 100%;
   min-height: 70px;
   background-color: rgba(0,0,0,.6);
@@ -26,12 +36,11 @@ header{
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  
 }
 
 header h1{
   /* @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap'); */
-  font-family: 'UnifrakturCook', cursive;
+  /* font-family: 'UnifrakturCook', cursive; */
   font-size: 3rem;
 }
 
@@ -41,16 +50,18 @@ header nav a{
   padding: 0 15px;
 }
 
-header nav a:hover{
-  
+header nav a:hover{  
   border: 2px solid red;
   border-radius: 5px;
   background-color: rgb(201, 129, 129);
 }
 
+/* End of Main header section */
+
 /* atf section */
 #atf{
-  height: 100vh;
+  /* min-width: 100vw; */
+  min-height: 100vh;
   border: 2px solid red;
   background-color: darkgray;
   background-image: url('img/atf-900.jpg');
@@ -81,7 +92,7 @@ header nav a:hover{
   padding-top: 50px;
 }
 
-.atf-content h1{
+.atf-content #title{
   /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Alfa Slab One', cursive;
   font-size: 2rem;
@@ -96,10 +107,13 @@ header nav a:hover{
   font-size: 1rem;
 }
 
+/* end of atf section */
+
 /* about fela section */
 #about-fela{
-  width: 100%;
-  min-height: 300px;
+  /* min-width: 100vw; */
+  /* min-height: 300px; */
+  min-height: 100vh;
   /* background-color: rgba(136, 9, 9, 0.2); */
   /* background: transparent; */
   /* background-color: blue; */
@@ -107,11 +121,93 @@ header nav a:hover{
   background-image: url('img/fela16.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   /* margin-bottom: 5px; */
+  padding-top: 83px;
   border: 2px solid greenyellow;
 }
+
+#about-fela h2{
+  background-color: rgba(0,0,0,.6);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.p-section{
+  border: 2px solid hotpink;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.p-section::first-letter{
+  font-size: 3rem;
+}
+
+#main{
+  /* width: 960px; */
+  margin: 10px auto;
+  background-color: rgba(0,0,0,.6);
+}
+
+#main h3{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#tribute-info #container{
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+#tribute-info h3{
+  border: 2px solid greenyellow;
+}
+
+#img-div{
+  border: thin #c0c0c0 solid;
+  max-width: 315px;
+  max-height: 325px;
+  /* margin: 20px; */
+  margin: 0 auto;
+}
+
+#img-div #image{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  /* padding: 5px 5px 0px 5px; */
+}
+
+#img-caption{
+  background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    margin: 0;
+    text-align: center;
+}
+
+#timeline{
+  margin-top: 20px;
+  border: 2px solid red;
+}
+#timeline h3{
+  border: 2px solid greenyellow;
+}
+
+
+
+#timeline ul li{
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 15px 0;
+  /* list-style-image: url('links/musical.svg'); */
+}
+/* end of about fela */
+
 
 /* Kalakuta Wall: Gallery */
 #kalakuta-wall{
@@ -137,8 +233,27 @@ footer a{
 footer a img{
   width: 46px;
   height: 46px;
+  padding:0 5px;
+  /* background-color: rgba(0,0,0,.6); */
 }
 
+footer a:hover{
+  width: 47px;
+  height: 47px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* float functions */
+.clear--both{
+  clear: both;
+}
 
 
 /* extra media queries */
