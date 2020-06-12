@@ -1,0 +1,172 @@
+html,body,section,div,header,a,h1,h2,h3{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: white;
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;900&display=swap'); */
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 1.1rem; */
+ 
+}
+
+
+
+header{
+  width: 100%;
+  min-height: 70px;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+  position: fixed;
+  top:0;
+  left:0;
+  border: 2px solid blue;
+  /* flex */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+header h1{
+  /* @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap'); */
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 3rem;
+}
+
+header nav a{
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+header nav a:hover{
+  
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgb(201, 129, 129);
+}
+
+/* atf section */
+#atf{
+  height: 100vh;
+  border: 2px solid red;
+  background-color: darkgray;
+  background-image: url('img/atf-900.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 5px;
+  /* layout */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  /* -webkit-filter: brightness(1.7);
+  filter: brightness(1.7); */
+}
+
+.atf-content{
+  /* margin-top: 10%; */
+  /* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); */
+  /* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); */
+  border: 2px solid hotpink;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.atf-content h1{
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2rem;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.atf-content p{
+  /* font-family: 'Permanent Marker', cursive; */
+  font-size: 1rem;
+}
+
+/* about fela section */
+#about-fela{
+  width: 100%;
+  min-height: 300px;
+  /* background-color: rgba(136, 9, 9, 0.2); */
+  /* background: transparent; */
+  /* background-color: blue; */
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url('img/fela16.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-attachment: fixed;
+  /* margin-bottom: 5px; */
+  border: 2px solid greenyellow;
+}
+
+/* Kalakuta Wall: Gallery */
+#kalakuta-wall{
+  width: 100%;
+  height: 600px;
+  background-color: darkgray;
+  background-image: url('img/fela10.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: darkslategray;
+}
+
+footer a{
+  text-decoration: none;
+}
+footer a img{
+  width: 46px;
+  height: 46px;
+}
+
+
+
+/* extra media queries */
+
+/* @media(min-width:800px){
+  .atf-content{
+    margin-top: 10%;
+    padding-top: 70px;
+  }
+
+.atf-content h1{
+    font-size: 70px;
+  }
+  
+  .atf-content p{
+    font-size: 2rem;
+  }
+}
+
+@media(min-width:1070px){
+  .atf-content{
+    margin-top: 10%;
+    padding-top: 70px;
+  }
+
+.atf-content h1{
+    font-size: 100px;
+  }
+  
+} */
+
