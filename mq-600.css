@@ -63,3 +63,11 @@
     /* margin: 20px; */
     margin: 0 auto;
 }
+
+/* kalakuta wall */
+#kalakuta-wall h2{
+  /*  */
+  font-size: 3rem;
+  padding-top: 6.6rem;
+  padding-bottom: 20px;
+  }
