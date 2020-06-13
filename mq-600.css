@@ -1,6 +1,5 @@
 #atf{
     background-image: url('img/atf-1200.jpg');
-
 }
 
 
@@ -8,10 +7,6 @@
     margin-top: 10%;
     border: 2px solid hotpink;
     background-color: rgba(0,0,0,0.8);
-    /* display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center; */
     padding-top: 70px;
   }
 
@@ -34,8 +29,6 @@
   /* about-fela */
   #about-fela{
     padding-top: 105px;
-
-
   }
 
   #about-fela h2{
@@ -48,25 +41,21 @@
     background-color: rgba(0,0,0,.6);
   }
 
-  /* #tribute-info #container{
-    margin-top: 10px;
-    display: flex;
-    flex-flow: row;
-  } */
   #tribute-info #container{
-    /* margin-top: 10px; */
     display: flex;
     flex-flow: column;
-    
   }
   #img-div{
-    /* margin: 20px; */
     margin: 0 auto;
 }
 
 /* kalakuta wall */
+#kalakuta-wall{
+  max-width: 100vw;
+}
+
+
 #kalakuta-wall h2{
-  /*  */
   font-size: 3rem;
   padding-top: 6.6rem;
   padding-bottom: 20px;
