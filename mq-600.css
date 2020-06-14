@@ -2,61 +2,64 @@
     background-image: url('img/atf-1200.jpg');
 }
 
-
 .atf-content{
     margin-top: 10%;
-    border: 2px solid hotpink;
     background-color: rgba(0,0,0,0.8);
     padding-top: 70px;
-  }
+}
 
 .atf-content #title{
     font-size: 70px;
-  }
-  
-  .atf-content p{
-    font-size: 2rem;
-  }
+}
 
-  header{ 
-    min-height: 90px;
+.atf-content p{
+    font-size: 2rem;
+}
+
+header{ 
+   min-height: 90px;
 }
   
-  header h1{
+header h1{
     font-size: 4rem;
-  }
+}
   
   /* about-fela */
-  #about-fela{
+#about-fela{
     padding-top: 105px;
-  }
+}
 
-  #about-fela h2{
+#about-fela h2{
     font-size: 5rem;
-  }
+}
 
-  #main{
-    max-width: 960px;
-    margin: 10px auto;
-    background-color: rgba(0,0,0,.6);
-  }
+#main{
+   max-width: 960px;
+   margin: 10px auto;
+   background-color: rgba(0,0,0,.6);
+}
 
-  #tribute-info #container{
+#tribute-info #container{
     display: flex;
     flex-flow: column;
-  }
-  #img-div{
+}
+
+#img-div{
     margin: 0 auto;
 }
+#img-div #image{
+  max-width: 300px;
+  max-height: 300px;
+}
+
 
 /* kalakuta wall */
 #kalakuta-wall{
   max-width: 100vw;
 }
 
-
 #kalakuta-wall h2{
   font-size: 3rem;
   padding-top: 6.6rem;
   padding-bottom: 20px;
-  }
+}

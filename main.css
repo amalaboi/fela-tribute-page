@@ -1,4 +1,4 @@
-html,body,section,div,header,a,h1,h2,h3{
+html,body,section,div,header,a,h1,h2,h3,h4{
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -6,7 +6,6 @@ html,body,section,div,header,a,h1,h2,h3{
   /* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;900&display=swap'); */
   font-family: 'Roboto Slab', serif;
   font-family: 'Roboto', sans-serif;
-  /* font-size: 1.1rem; */
  }
 
  /* Font-family declaration... */
@@ -30,7 +29,6 @@ html,body,section,div,header,a,h1,h2,h3{
   position: fixed;
   top:0;
   left:0;
-  border: 2px solid blue;
   /* flex */
   display: flex;
   flex-flow: column wrap;
@@ -60,9 +58,7 @@ header nav a:hover{
 
 /* atf section */
 #atf{
-  /* min-width: 100vw; */
   min-height: 100vh;
-  border: 2px solid red;
   background-color: darkgray;
   background-image: url('img/atf-900.jpg');
   background-repeat: no-repeat;
@@ -81,7 +77,6 @@ header nav a:hover{
   /* margin-top: 10%; */
   /* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); */
   /* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); */
-  border: 2px solid hotpink;
   background-color: rgba(0,0,0,0.8);
   display: flex;
   flex-flow: column nowrap;
@@ -118,7 +113,6 @@ header nav a:hover{
   background-attachment: fixed;
   margin-bottom: 5px;
   padding-top: 83px;
-  border: 2px solid greenyellow;
 }
 
 #about-fela h2{
@@ -128,7 +122,6 @@ header nav a:hover{
 }
 
 .p-section{
-  border: 2px solid hotpink;
   margin: 5px;
   padding: 5px;
   font-size: 1.2rem;
@@ -140,6 +133,7 @@ header nav a:hover{
 
 #main{
   margin: 10px auto;
+  padding: 10px;
   background-color: rgba(0,0,0,.6);
 }
 
@@ -153,22 +147,21 @@ header nav a:hover{
   display: flex;
   flex-flow: column;
 }
-
 #tribute-info h3{
-  border: 2px solid greenyellow;
+  text-decoration: underline;
 }
 
 #img-div{
   border: thin #c0c0c0 solid;
-  max-width: 315px;
+  max-width: 325px;
   max-height: 325px;
   margin: 0 auto;
 }
 
 #img-div #image{
-  display: flex;
-  width: 300px;
-  height: 300px;
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 #img-caption{
@@ -182,10 +175,9 @@ header nav a:hover{
 
 #timeline{
   margin-top: 20px;
-  border: 2px solid red;
 }
 #timeline h3{
-  border: 2px solid greenyellow;
+  text-decoration: underline;
 }
 
 
@@ -217,7 +209,7 @@ padding-top: 5.6rem;
 
 .quote-section{
   background-color: rgba(0, 0, 0, 0.4);
-  border: 10px solid purple;
+  padding: 10px;
 }
 
 blockquote{
@@ -225,16 +217,26 @@ blockquote{
   font-size: 2rem;
   margin: 15px auto;
   padding: 15px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   background-color: rgba(0, 0, 0, 0.6);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 /* end of kalakuta wall */
 
+/* footer */
 footer{
   width: 100%;
-  height: 100px;
+  height: 150px;
   background-color: darkslategray;
+}
+
+footer h4{
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.3rem;
 }
 
 footer a{
@@ -255,11 +257,7 @@ footer a:hover{
 
 #footer{
   display: flex;
+  /* flex-flow: row wrap; */
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-
